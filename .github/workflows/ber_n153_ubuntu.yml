@@ -1,4 +1,4 @@
-name: Ubuntu N111
+name: Ubuntu N153
 on:
   push:
     branches:
@@ -9,5 +9,5 @@ jobs:
   call-workflow-passing-data:
     uses: ./.github/workflows/base.yml
     with:
-      compiler: "ocaml-variants.4.11.1+BER"
+      compiler: "ocaml-variants.5.3.0+BER"
       os: "ubuntu-latest"

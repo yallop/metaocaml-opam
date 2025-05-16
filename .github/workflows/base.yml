@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Use OCaml ${{ inputs.compiler }}
-        uses: ocaml/setup-ocaml@v2
+        uses: ocaml/setup-ocaml@v3
         with:
           ocaml-compiler: ${{ inputs.compiler }}
           dune-cache: true
@@ -28,4 +28,4 @@ jobs:
         run: |
           opam remote add metaocaml .
           opam install --yes ocamlfind
-          opam install --yes `ls packages`
+          opam install --yes `ls packages | grep -v staged-streams`
