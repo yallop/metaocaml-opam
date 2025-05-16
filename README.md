@@ -9,7 +9,7 @@ A repository of [OPAM][opam] packages for [BER MetaOCaml][metaocaml].
 
 ```
 opam update
-opam switch create 4.14.1+BER
+opam switch create 5.3.0+BER
 opam remote add metaocaml git+https://github.com/metaocaml/metaocaml-opam.git
 ```
 
