@@ -2,11 +2,8 @@
 
 A repository of [OPAM][opam] packages for [BER MetaOCaml][metaocaml].
 
-| ![BER N111 Ubuntu status](https://github.com/metaocaml/metaocaml-opam/workflows/Ubuntu%20N111/badge.svg) |
-|---|
-| ![BER N114 Ubuntu status](https://github.com/metaocaml/metaocaml-opam/workflows/Ubuntu%20N114/badge.svg) |
-|---|---|
-| ![BER N153 Ubuntu status](https://github.com/metaocaml/metaocaml-opam/workflows/Ubuntu%20N153/badge.svg) |
+[![Ubuntu N111](https://github.com/metaocaml/metaocaml-opam/actions/workflows/ber_n111_ubuntu.yml/badge.svg)](https://github.com/metaocaml/metaocaml-opam/actions/workflows/ber_n111_ubuntu.yml) [![Ubuntu N114](https://github.com/metaocaml/metaocaml-opam/actions/workflows/ber_n114_ubuntu.yml/badge.svg)](https://github.com/metaocaml/metaocaml-opam/actions/workflows/ber_n114_ubuntu.yml) [![Ubuntu N153](https://github.com/metaocaml/metaocaml-opam/actions/workflows/ber_n153_ubuntu.yml/badge.svg)](https://github.com/metaocaml/metaocaml-opam/actions/workflows/ber_n153_ubuntu.yml)
+
 
 ### Setting up
 
