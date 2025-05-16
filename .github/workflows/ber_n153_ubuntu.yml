@@ -1,0 +1,8 @@
+name: Ubuntu N153
+on: [push, pull_request]
+jobs:
+  call-workflow-passing-data:
+    uses: ./.github/workflows/base.yml
+    with:
+      compiler: "ocaml-variants.5.3.0+BER"
+      os: "ubuntu-latest"

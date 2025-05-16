@@ -5,6 +5,8 @@ A repository of [OPAM][opam] packages for [BER MetaOCaml][metaocaml].
 | ![BER N111 Ubuntu status](https://github.com/metaocaml/metaocaml-opam/workflows/Ubuntu%20N111/badge.svg) | ![BER N111 macOS status](https://github.com/metaocaml/metaocaml-opam/workflows/macOS%20N111/badge.svg) |
 |---|---|
 | ![BER N114 Ubuntu status](https://github.com/metaocaml/metaocaml-opam/workflows/Ubuntu%20N114/badge.svg) | ![BER N114 macOS status](https://github.com/metaocaml/metaocaml-opam/workflows/macOS%20N114/badge.svg) |
+|---|---|
+| ![BER N153 Ubuntu status](https://github.com/metaocaml/metaocaml-opam/workflows/Ubuntu%20N153/badge.svg) | ![BER N153 macOS status](https://github.com/metaocaml/metaocaml-opam/workflows/macOS%20N153/badge.svg) |
 
 ### Setting up
 
