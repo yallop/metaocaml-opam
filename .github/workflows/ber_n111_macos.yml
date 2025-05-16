@@ -1,5 +1,10 @@
 name: macOS N111
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
 jobs:
   call-workflow-passing-data:
     uses: ./.github/workflows/base.yml
